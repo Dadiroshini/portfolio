@@ -55,44 +55,21 @@ function Footer() {
               About Me
             </h3>
             <p className="text-gray-400">
-              I'm a passionate Full Stack Developer with expertise in building
-              dynamic and user-friendly web applications. I thrive on creating
-              innovative solutions that make an impact.
+            Frontend Developer passionate about crafting seamless, high-performance user experiences.
+Blending creativity with logic to build intuitive and engaging digital interfaces.
+Driven by innovation, precision, and the art of user-centric design.
             </p>
           </div>
 
           {/* Middle: Social Media Links */}
-          <div className="w-full md:w-1/3 mb-6 md:mb-0">
-            <h3 className="text-2xl font-bold text-yellow-400 mb-4">
+          <div className="w-full md:w-1/3 mb-6 md:mb-0 flex flex-col items-center space-y-4">
+            <h3 className="text-2xl font-bold text-yellow-400 mb-4 text-center">
               Connect With Me
             </h3>
-            <div className="flex gap-3 sm:gap-4 mb-6">
+            <div className="flex  gap-3 sm:gap-4 mb-6">
+              
               <a
-                href="https://www.facebook.com/share/19jhUeF6jQ/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-500 text-xl sm:text-2xl hover:scale-110 transition-transform"
-              >
-                <FaFacebook />
-              </a>
-              <a
-                href="https://x.com/Suraj73965250?t=O8SIcv4f1-98QQA541LgQQ&s=09"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-500 text-xl sm:text-2xl hover:scale-110 transition-transform"
-              >
-                <FaTwitter />
-              </a>
-              <a
-                href="https://www.instagram.com/cricket_lvr_abd_suraj_virat?igsh=ajE0dGU4ZWF1MWwx"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-pink-500 text-xl sm:text-2xl hover:scale-110 transition-transform"
-              >
-                <FaInstagram />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/surajbaksi"
+                href="https://www.linkedin.com/in/roshini-dadi-b7a660268"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500 text-xl sm:text-2xl hover:scale-110 transition-transform"
@@ -100,7 +77,7 @@ function Footer() {
                 <FaLinkedin />
               </a>
               <a
-                href="https://github.com/Suraj-artist"
+                href="https://github.com/Dadiroshini"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500 text-xl sm:text-2xl hover:scale-110 transition-transform"
@@ -155,7 +132,7 @@ function Footer() {
         {/* Bottom Footer Section */}
         <div className="border-t border-gray-700 pt-4">
           <p className="text-center text-gray-500 text-sm">
-            &copy; 2025 Suraj. All rights reserved.
+          &copy; {new Date().getFullYear()} Roshini. All rights reserved.
           </p>
         </div>
       </div>

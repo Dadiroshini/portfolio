@@ -10,6 +10,7 @@ const Header = () => {
     "Education": "education",
     "Skills": "skills",
     "Projects": "projects",
+    "Experience":"experience",
     "Certificates": "certificates", 
     "Contact": "contact",
   };
@@ -32,7 +33,7 @@ const Header = () => {
           <img
             src={logo}
             alt="Logo"
-            className="w-12 h-12 object-cover rounded-full"
+            className="w-14 h-14 object-cover rounded-full"
           />
         </div>
 

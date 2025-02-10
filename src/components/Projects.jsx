@@ -1,13 +1,14 @@
 import tuition from "../assets/tuition.png";
-import ecommerce from "../assets/ecommerce.png";
-import realestate from "../assets/realestate.png";
+// import ecommerce from "../assets/ecommerce.png";
+// import realestate from "../assets/realestate.png";
 
 function Projects() {
   return (
     <section id="projects" className="py-16 bg-gray-900 text-white">
       <div className="container mx-auto px-4">
+        
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-yellow-400">
-          Latest Projects
+          Latest Project
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Project 1 */}
@@ -35,7 +36,7 @@ function Projects() {
           </div>
 
           {/* Project 2 */}
-          <div className="bg-white text-gray-800 shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition-transform">
+          {/* <div className="bg-white text-gray-800 shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition-transform">
             <img
               src={realestate}
               alt="Real Estate Management System"
@@ -56,10 +57,10 @@ function Projects() {
                 View Project
               </a>
             </div>
-          </div>
+          </div> */}
 
           {/* Project 3 */}
-          <div className="bg-white text-gray-800 shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition-transform">
+          {/* <div className="bg-white text-gray-800 shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition-transform">
             <img
               src={ecommerce}
               alt="E-Commerce Platform"
@@ -80,8 +81,10 @@ function Projects() {
                 View Project
               </a>
             </div>
-          </div>
+          </div> */}
+          
         </div>
+        
       </div>
     </section>
   );

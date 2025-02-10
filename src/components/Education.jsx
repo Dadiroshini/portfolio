@@ -15,12 +15,12 @@ const Education = () => {
             <FaGraduationCap className="text-yellow-500 text-3xl sm:text-4xl" />
             <div>
               <h3 className="text-lg sm:text-xl font-semibold text-gray-800">
-                Bachelor of Technology in ECE
+                Bachelor of Technology in CSE
               </h3>
               <p className="text-gray-600">
-                <span className="font-bold">Gurunanak Institute of Technology</span>
+                <span className="font-bold">Dadi Institute of Engineering & Technology</span>
               </p>
-              <p className="text-sm text-gray-500 mt-1">2019 - 2023 | CGPA: 6.31</p>
+              <p className="text-sm text-gray-500 mt-1">2019 - 2023 | CGPA: 7.32</p>
             </div>
           </li>
 
@@ -30,9 +30,9 @@ const Education = () => {
             <div>
               <h3 className="text-lg sm:text-xl font-semibold text-gray-800">Intermediate, MPC</h3>
               <p className="text-gray-600">
-                <span className="font-bold">Narayana Junior College</span>
+                <span className="font-bold">Samyukta Junior College</span>
               </p>
-              <p className="text-sm text-gray-500 mt-1">2017 - 2019 | Percentage: 888/1000</p>
+              <p className="text-sm text-gray-500 mt-1">2017 - 2019 | CGPA: 8.57</p>
             </div>
           </li>
 
@@ -44,9 +44,9 @@ const Education = () => {
                 Secondary School Certificate (SSC)
               </h3>
               <p className="text-gray-600">
-                <span className="font-bold">Amaravathi Grammar High School</span>
+                <span className="font-bold">Pryadrshini EM High School</span>
               </p>
-              <p className="text-sm text-gray-500 mt-1">2017 | GPA: 9.5</p>
+              <p className="text-sm text-gray-500 mt-1">2017 | CGPA: 8.3</p>
             </div>
           </li>
         </ul>

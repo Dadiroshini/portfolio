@@ -1,31 +1,45 @@
 import React from "react";
-import FSD from "../assets/Excelr.jpg";
-import Internship from "../assets/internship.jpg";
-import Apprecitation from "../assets/rfchh_appreciation.jpg";
+import AWS from "../assets/AWS.jpeg";
+import careernet from "../assets/careernet.jpeg";
+import Hacking from "../assets/Hacking.jpeg";
 
 function Certificates() {
   const certificates = [
     {
-      title: "Full Stack Web Development Certification",
+      title: "Virtual Internship Completion Certificate",
       description:
-        "Certified by EXCELR Raising Excellence for mastering Full Stack Java Development.",
-      issueDate: "02 September 2024",
-      image: FSD,
+        "Certified by AWS Cloud Internship.",
+      issueDate: "May 2022",
+      image: AWS,
     },
     {
-      title: "Internship from AiVariant",
+      title: "CareerTech 2.0",
       description:
-        "Awarded for successfully completing the Internship Project through Full Stack Java Developer from 15 July 2024 to 15 October 2024.",
-      issueDate: "16 October 2024",
-      image: Internship,
+        "Participated in The Ultimate Skill Showdown For Backend Engineering wizards .",
+      issueDate: "17 February 2024",
+      image: careernet,
     },
+    // {
+    //   title: "Appreciation Certificate from RFCHH",
+    //   description:
+    //     "Awarded for outstanding contribution to the organization, demonstrating leadership and commitment to excellence.",
+    //   issueDate: "01 November 2024",
+    //   image: Apprecitation,
+    // },
     {
-      title: "Appreciation Certificate from RFCHH",
+      title: "Nikistian Media Private Limited",
       description:
-        "Awarded for outstanding contribution to the organization, demonstrating leadership and commitment to excellence.",
-      issueDate: "01 November 2024",
-      image: Apprecitation,
+        "Certificate Of Attending Ethical Hacking.",
+      issueDate: "May 2024",
+      image: Hacking,
     },
+    // {
+    //   title: "Celonis Academy",
+    //   description:
+    //     "Certificate Of Celonis Foundation .",
+    //   issueDate: "September 2022",
+    //   image: Apprecitation,
+    // },
   ];
 
   return (
